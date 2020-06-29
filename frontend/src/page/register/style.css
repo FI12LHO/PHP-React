@@ -1,0 +1,83 @@
+.divRegister{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1a1b1f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divRegister .header{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.divRegister .header .logo .to-back-link{
+    margin: 0px 10px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a1b1f;
+}
+
+.divRegister .header .menu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+
+.divRegister .header .menu .link{
+    margin: 0px 5px;
+    padding: 10px;
+    background-color: #141414;
+    color: #bdbfc2;
+    text-decoration: none;
+    font-size: 12;
+}
+
+.divRegister .action{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRegister .action table tr td{
+    padding: 0px 30px;
+}
+
+.divRegister .action table .action-radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.divRegister .action table .action-radio label{
+    margin: 0px 5px;
+    margin-right: 10px;
+}
+
+.divRegister .action table input[type='text']{
+    width: 200px;
+    height: 30px;
+    margin: 10px 0px;
+    border: 1px solid #14141434;
+    font-size: 14px;
+    text-align: center;
+}
+
+.divRegister button{
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: #141414;
+    color: #bdbfc2;
+}

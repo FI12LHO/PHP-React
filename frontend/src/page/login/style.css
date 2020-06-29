@@ -1,0 +1,65 @@
+.divLogin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1a1b1f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divLogin .header{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.divLogin .header .logo .to-back-link{
+    margin: 0px 10px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a1b1f;
+}
+
+.divLogin .header .menu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+
+.divLogin .header .menu .link{
+    margin: 0px 5px;
+    padding: 10px;
+    background-color: #141414;
+    color: #bdbfc2;
+    text-decoration: none;
+    font-size: 12;
+}
+
+.divLogin .action{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.divLogin .action input{
+    height: 30px;
+    border: 1px solid #14141434;
+    font-size: 14px;
+    text-align: center;
+}
+
+.divLogin .action button{
+    height: 30px;
+    width: 60px;
+    border: none;
+    background-color: #141414;
+    color: #bdbfc2;
+    margin-left: 16px;
+}

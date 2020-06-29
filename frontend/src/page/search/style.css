@@ -1,0 +1,129 @@
+.divSearch{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1a1b1f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divSearch .header{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.divSearch .header .logo .to-back-link{
+    margin: 0px 10px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a1b1f;
+}
+
+.divSearch .header .menu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+
+.divSearch .header .menu .link{
+    margin: 0px 5px;
+    padding: 10px;
+    background-color: #141414;
+    color: #bdbfc2;
+    text-decoration: none;
+    font-size: 12;
+}
+
+.divSearch .action{
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divSearch .action p{
+    font-size: 12px;
+}
+
+.divSearch .action p b{
+    font-size: 14px;
+}
+
+.divSearch .action .action-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+
+.divSearch .action .action-bar input{
+    width: 200px;
+    height: 30px;
+    margin: 10px 0px;
+    border: 1px solid #14141434;
+    font-size: 14px;
+    text-align: center;
+}
+
+.divSearch .action .action-bar button{
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: #141414;
+    color: #bdbfc2;
+    margin: 0px 5px;
+}
+
+.divSearch .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.divSearch .content .data{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    border: 1px solid #00000020;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+}
+
+.divSearch .content .data strong{
+    margin: 10px 20px;
+    font-size: 16px;
+    padding: 0px 0px;
+}
+
+.divSearch .content .data p{
+    margin: 10px 20px;
+    font-size: 16px;
+    padding: 0px 0px;
+}
+
+.divSearch .content .data .tag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divSearch .content .data .content-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
